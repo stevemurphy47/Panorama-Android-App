@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "D:\\source\\Work\\PanoramaCamera\\app\\CMakeLists.txt",
+    "D:\\ProgramData\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "D:\\ProgramData\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\ProgramData\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\source\\Work\\PanoramaCamera\\app\\.cxx\\cmake\\debug\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "D:\\ProgramData\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\source\\Work\\PanoramaCamera\\app\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-x86_64": {
+      "artifactName": "native-lib",
+      "buildCommand": "D:\\ProgramData\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\source\\Work\\PanoramaCamera\\app\\.cxx\\cmake\\debug\\x86_64\" native-lib",
+      "abi": "x86_64",
+      "output": "D:\\source\\Work\\PanoramaCamera\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libnative-lib.so",
+      "runtimeFiles": [
+        "D:\\source\\Work\\PanoramaCamera\\app\\src\\main\\jniLibs\\x86_64\\libopencv_java4.so"
+      ]
+    }
+  }
+}

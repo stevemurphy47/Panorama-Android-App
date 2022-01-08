@@ -1,0 +1,45 @@
+{
+  "stringTable": {
+    "0": "D:/source/Work/PanoramaCamera/app/.cxx/cmake/release/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/ProgramData/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/ProgramData/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -std=c++17 -Oz -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "D:\\source\\Work\\PanoramaCamera\\app\\CMakeLists.txt",
+    "D:\\ProgramData\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "D:\\ProgramData\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\ProgramData\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\source\\Work\\PanoramaCamera\\app\\.cxx\\cmake\\release\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\ProgramData\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\source\\Work\\PanoramaCamera\\app\\.cxx\\cmake\\release\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Release-armeabi-v7a": {
+      "buildCommand": "D:\\ProgramData\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\source\\Work\\PanoramaCamera\\app\\.cxx\\cmake\\release\\armeabi-v7a\" native-lib",
+      "buildType": "release",
+      "toolchain": "1369299717",
+      "abi": "armeabi-v7a",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "D:\\source\\Work\\PanoramaCamera\\app\\src\\main\\cpp\\native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\source\\Work\\PanoramaCamera\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libnative-lib.so",
+      "runtimeFiles": [
+        "D:\\source\\Work\\PanoramaCamera\\app\\src\\main\\jniLibs\\armeabi-v7a\\libopencv_java4.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "1369299717": {
+      "cppCompilerExecutable": "D:\\ProgramData\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

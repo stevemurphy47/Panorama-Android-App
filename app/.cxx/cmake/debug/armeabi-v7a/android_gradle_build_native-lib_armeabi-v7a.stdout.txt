@@ -1,0 +1,13 @@
+ninja: Entering directory `D:\source\Work\PanoramaCamera\app\.cxx\cmake\debug\armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+../../../../src/main/cpp/native-lib.cpp:45:30: warning: 'createStitcher' is deprecated [-Wdeprecated-declarations]
+    Ptr<Stitcher> stitcher = createStitcher(false);
+                             ^
+../../../../src/main/cpp/include\opencv2/stitching.hpp:332:1: note: 'createStitcher' has been explicitly marked deprecated here
+CV_DEPRECATED Ptr<Stitcher> createStitcher(bool try_use_gpu = false);
+^
+../../../../src/main/cpp/include\opencv2/core/cvdef.h:418:43: note: expanded from macro 'CV_DEPRECATED'
+#    define CV_DEPRECATED __attribute__ ((deprecated))
+                                          ^
+1 warning generated.
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\debug\obj\armeabi-v7a\libnative-lib.so
